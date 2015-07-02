@@ -1,0 +1,20 @@
+﻿Build started 02/07/2015 21:17:56.
+     1>Project "c:\Users\user\documents\visual studio 2013\Projects\sfml1\sfml1\sfml1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\sfml1\sfml1\ball.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\user\documents\visual studio 2013\projects\sfml1\sfml1\paddle.h(6): warning C4099: 'ball' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\user\documents\visual studio 2013\projects\sfml1\sfml1\ball.h(10) : see declaration of 'ball'
+     1>c:\users\user\documents\visual studio 2013\projects\sfml1\sfml1\paddle.h(8): warning C4099: 'Paddle' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\user\documents\visual studio 2013\projects\sfml1\sfml1\ball.h(8) : see declaration of 'Paddle'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\user\documents\visual studio 2013\Projects\sfml1\Debug\sfml1.exe" /INCREMENTAL /NOLOGO "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\user\documents\visual studio 2013\Projects\sfml1\Debug\sfml1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\user\documents\visual studio 2013\Projects\sfml1\Debug\sfml1.lib" /MACHINE:X86 Debug\ball.obj
+         Debug\main.obj
+         Debug\Paddle.obj
+         sfml1.vcxproj -> c:\users\user\documents\visual studio 2013\Projects\sfml1\Debug\sfml1.exe
+     1>Done Building Project "c:\Users\user\documents\visual studio 2013\Projects\sfml1\sfml1\sfml1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.63
